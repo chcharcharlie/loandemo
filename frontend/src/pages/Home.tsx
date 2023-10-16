@@ -59,22 +59,22 @@ export default function Home() {
             </Typography>
           </Stack>
         </Stack>
-        <Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"} minWidth={"350px"} height={"36px"}>
+        <Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"} minWidth={"450px"} height={"36px"}>
           <Typography>Verify your onchain credit</Typography>
           <Iconify height={28} width={28} color={"green"} marginRight={"8px"} icon="material-symbols:check" />
         </Stack>
-        <Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"} minWidth={"350px"} height={"36px"}>
+        <Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"} minWidth={"450px"} height={"36px"}>
           <Typography>Upload bank statement</Typography>
           <Iconify height={28} width={28} color={"green"} marginRight={"8px"} icon="material-symbols:check" />
         </Stack>
-        <Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"} minWidth={"350px"} height={"36px"}>
+        <Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"} minWidth={"450px"} height={"36px"}>
           <Typography>Stake collederal assets</Typography>
           <Iconify height={28} width={28} color={"green"} marginRight={"8px"} icon="material-symbols:check" />
         </Stack>
-        <Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"} minWidth={"350px"} height={"36px"}>
-          <Typography>Verify yearly gross income</Typography>
+        <Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"} minWidth={"450px"} height={"36px"}>
+          <Typography>Increase your credit limit</Typography>
           {grossIncome === 0 && !queryid &&
-            <Button variant="text" onClick={() => { triggerQuery() }}>Verify</Button>
+            <Button variant="text" onClick={() => { triggerQuery() }}>Verify Yearly Gross Income</Button>
           }
           {grossIncome === 0 && queryid &&
             <Iconify height={28} width={28} marginRight={"8px"} icon="line-md:loading-loop" />
