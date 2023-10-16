@@ -45,7 +45,7 @@ export default function NavBar() {
                             marginY: "5px",
                         }}>
                             <Stack direction="row" justifyContent={"center"} alignItems={"center"} gap={1} width={1}>
-                                <Typography fontFamily={"Nanum Pen Script"} fontSize={"42px"}>Demo Lender</Typography>
+                                <Typography fontFamily={"Nanum Pen Script"} fontSize={"42px"}>FreeBank</Typography>
                             </Stack>
                         </Stack>
                     </Toolbar>
