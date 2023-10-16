@@ -35,8 +35,8 @@ export default function Home() {
     } else {
       for (const result of results) {
         if (result.flow_id !== "108") continue
-        console.log(parseInt(result.lower_bounds[3]))
-        setGrossIncome(parseInt(result.lower_bounds[3]))
+        console.log(parseInt(result.lower_bounds[2]))
+        setGrossIncome(parseInt(result.lower_bounds[2]))
         setQueryid(null)
         break
       }
